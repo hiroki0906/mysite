@@ -1,7 +1,96 @@
-/* [target] { */
-/* [href='#top'] { */
-/* [href^='https'] { */
-/* [href$='dotinstall'] { */
-[href*='com'] {
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+  font-size: 36px;
   font-weight: bold;
+}
+
+header {
+  background-color: lightgray;
+  text-align: center;
+}
+
+.container {
+  width: 400px;
+  margin: auto;
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.profileimg img {
+  border-radius: 50%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: whitesmoke;
+}
+
+.profileinfo {
+  margin: 0px;
+  font-weight: normal;
+}
+
+main {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section > h1{
+  /* >を入れると、そのセクションの最初の要素にだけ適用される */
+  text-align: center;
+  font-size: 48px;
+}
+
+section > h1::before {
+  content: '- ';
+}
+
+section > h1::after {
+  content: ' -';
+}
+
+section > img {
+  width:50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.CSS, .JavaScript {
+ width: 30%; 
+ /* CSS, JSの画像はHTMLよりもサイズが大きいため微調整 */
+}
+
+ul {
+  list-style-position: inside;
+}
+
+li:last-child{
+  color: red;
+}
+
+.button_wrapper {
+  text-align: center;
+
+}
+button {
+  font-size: 20px;
+  background-color: skyblue;
+  padding-left: 4px;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  background-color: blue;
+}
+
+footer {
+  text-align: center;
+  color: gray;
 }
