@@ -1,58 +1,63 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <title>飯沼のプログラミング練習ログ</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="favicon.ico">
-  </head>
-  <body>
-    <header>
-      <div class="title">
-        飯沼のプログラミング練習ログ
-      </div>
-      <div class="container">
-        <div class="profileimg">
-          <img src="img/logo.png" alt="プロフィール画像">
-        </div>
-        <div class="profileinfo">
-          <h1>飯沼 広基</h1>
-          <p>2020/4~学習済み講座一覧</p>
-        </div>
-      </div>
 
-    </header>
-    <main>
-      <p>一番下が学習中の講座です。</p>
-      <section>
+<head>
+  <meta charset="utf-8">
+  <title>My portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="title">
+      My Portfolio
+    </div>
+    <div class="container">
+      <div class="profileimg">
+        <img src="img/logo.png" alt="プロフィール画像">
+      </div>
+      <div class="profileinfo">
+        <h1></h1>
+        <p>2020/4~学習済み講座一覧</p>
+      </div>
+    </div>
+
+  </header>
+  <main>
+    <p>一番下が学習中の講座です。</p>
+    <div class="columns">
+      <div class="column">
         <h1>HTML</h1>
-        <img class = "HTML" src="img/HTML.jpg" alt="HTMLロゴ">
+        <img class="HTML" src="img/HTML.jpg" alt="HTMLロゴ" width="200">
         <ul>
           <li><a href="https://dotinstall.com/lessons/basic_html_v5" target="_blank">はじめてのHTML</a></li>
           <li><a href="https://dotinstall.com/lessons/basic_html_tags_v2" target="_blank">詳解HTML 基礎文法編</a></li>
           <li><a href="https://dotinstall.com/lessons/basic_html_form" target="_blank">詳解HTML フォーム部品編</a></li>
         </ul>
-      </section>
-      
-      <section>
+      </div>
+      <div class="column">
         <h1>CSS</h1>
-          <img class = "CSS" src="img/CSS.png" alt="CSSロゴ">
+        <img class="CSS" src="img/CSS.png" alt="CSSロゴ" width="200">
         <ul>
           <li><a href="https://dotinstall.com/lessons/basic_css_v5" target="_blank">はじめてのCSS</a></li>
           <li><a href="https://dotinstall.com/lessons/basic_css_styles_v2" target="_blank">詳解CSS 基礎文法編</a></li>
           <li><a href="https://dotinstall.com/lessons/basic_css_selectors" target="_blank">詳解CSS セレクター編</a></li>
         </ul>
-      </section>
-
-      <section>
+      </div>
+      <div class="column">
         <h1>JavaScript</h1>
-          <img class = "JavaScript" src="img/JS.png" alt="JavaScriptロゴ">
+        <img class="JavaScript" src="img/JS.png" alt="JavaScriptロゴ" width="200">
         <ul>
           <li><a href="https://dotinstall.com/lessons/basic_javascript_v4" target="_blank">はじめてのJavaScript</a></li>
-          <li><a href="https://dotinstall.com/lessons/basic_javascript_grammer_v2" target="_blank">詳解JavaScript 基礎文法編</a></li>
-          <li><a href="https://dotinstall.com/lessons/basic_javascript_objects_v2" target="_blank">詳解JavaScript オブジェクト編</a></li>
+          <li><a href="https://dotinstall.com/lessons/basic_javascript_grammer_v2" target="_blank">詳解JavaScript
+              基礎文法編</a></li>
+          <li><a href="https://dotinstall.com/lessons/basic_javascript_objects_v2" target="_blank">詳解JavaScript
+              オブジェクト編</a></li>
         </ul>
-      </section>
+      </div>
+    </div>
     <div class="button_wrapper">
       <button>Next Lesson</button>
       <!-- buttonには、text-alignやmargin autoが効かないので、divで囲ってあげる -->
@@ -63,13 +68,13 @@
       </ul>
     </section>
 
-    </main>
-    <footer>
-      <p>(c) iinuma hiroki.com</p>
+  </main>
+  <footer>
+    <p>(c) iinuma hiroki.com</p>
 
-    </footer>
+  </footer>
 
-    <script src="js/main.js"></script>
-  </body>
+  <script src="js/main.js"></script>
+</body>
 
 </html>
